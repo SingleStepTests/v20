@@ -183,7 +183,8 @@ Note that these tests include many undocumented/undefined opcodes. The V20 has n
 The V20 often has very different behavior than the 8088 when presented with undefined instruction forms.
 
 ### Per-Instruction Notes
- - **62,63**: BOUND with a second register operand is invalid. The V20 will halt if given this invalid form*, therefore only valid forms are provided.
+ - **62**: BOUND with a second register operand is invalid. The V20 will halt if given this invalid form*, therefore only valid forms are provided.
+ - **63**: An undefined instruction that does nothing, but spends some time doing it.
  - **6C,6D**: REPC/REPNC prefixes on INS and OUTS act as regular REP prefixes.
  - **8C,8E**: These instructions are only defined for a reg value of 0-3. However, only the first two bits are checked, so forms with all possible reg values are included (except as explained below).
  - **8E**: The form of this instruction with CS as a destination is undefined. Although the V20 will perform this as expected, the operation is not useful due to failure to flush the prefetch queue, which also causes issues for the Aduino8088 CPU server. Therefore, this form is omitted.
