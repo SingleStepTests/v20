@@ -134,9 +134,15 @@ All bytes fetched after the initial instruction bytes are set to 0x90 (144) (NOP
 }
 ```
 The 'name' field is a user-readable disassembly of the instruction.
+
 The 'bytes' list contains the instruction bytes that make up the full instruction. You do not need to do anything with these, as the instruction bytes are also set up in the initial memory state.
+
 The 'initial' and 'final' keys contain the register, memory and instruction queue states before and after instruction execution.
-The 'test_hash' key is a SHA1 hash of the test json. It should uniquely identify any test in the suite.
+
+The 'hash' key is a SHA1 hash of the test json. It should uniquely identify any test in the suite.
+
+The 'idx' key is the numerical index of the test in the JSON array.
+
 The 'cycles' key is a list of lists, each sublist corresponding to a single CPU cycle, storing several defined fields. From left to right, the cycle fields are:  
  
  - Pin status bitfield
