@@ -1839,15 +1839,21 @@
         },       
         "0F20": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..s.ap.",
+            "flags-mask": 63339
         },
         "0F22": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..s.ap.",
+            "flags-mask": 63339
         },
         "0F26": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..s.ap.",
+            "flags-mask": 63339
         },
         "0F28": {
             "status": "normal",
@@ -1859,23 +1865,33 @@
         },
         "0F31": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags-mask": 63274,
+            "flags": "o..szapc"
         },  
         "0F33": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..szapc",
+            "flags-mask": 63274  
         },
         "0F39": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..szapc",
+            "flags-mask": 63274  
         }, 
         "0F3B": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..szapc",
+            "flags-mask": 63274  
         },
         "0FFF": {
             "status": "normal",
-            "arch": "v30"
+            "arch": "v30",
+            "flags": "o..szapc",
+            "flags-mask": 63274     
         }
     }
 }

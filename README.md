@@ -4,9 +4,7 @@ This is a set of NEC V20 (μPD70108) CPU tests produced by Daniel Balsom using t
  - The ```v1_native``` directory contains the V20's native instruction set.
  - The ```v1_emulation``` directory will (eventually) contain the V20's 8080 emulation mode instruction set.
 
-### Current Version: 1.0.0
-This initial release of the V20 test set does not include the 0F extended opcode range. These will be added over time.
-I decided most people would be interested in this set to validate 186+ instructions, so it is worth releasing now.
+### Current Version: 1.0.1
 
 ### Changes from 8088 Test Suite V1
 
@@ -211,6 +209,11 @@ The V20 often has very different behavior than the 8088 when presented with unde
  - **F6.7, F7.7** - On the 8088, presence of a REP prefix preceding IDIV will invert the sign of the quotient. On V20, REP prefixes on IDIV have no effect. REP prefixes have been prepended to 10% of IDIV tests so you can check this behavior.
  - **FE**: FE.2-7 are invalid instructions, but will attempt to execute their FF counterpart microcode with the width bit set to 0. They may be included at a later date once I have figured out their basic operation. FE.3 and FE.5 register forms cause the V20 to halt.
  - **FF**: FF.3 and FF.5 register forms are invalid. They cause the V20 to halt and are excluded.
+
+#### Extended Opcodes
+ - **0F20, 0F22, 0F26** - Providing a length of 0 or 255 to the string BCD instructions will cause underflow of the internal loop counter, and cause the instructions to execute 65535 iterations for over 1 million cycles. These values of CL are filtered out as a result. Note that the test data is random - meaning the strings provided to these instructions are almost always not valid BCD. Their behavior is deterministic regardless. If you add/subtract them as normal and apply DAA/DAS to each byte, they should validate.
+ - **0F31, 0F33, 0F39, 0F3B** - These instructions are only valid with a register operand (mod==3). Providing a memory operand will cause them to run for over 130,000 cycles. These invalid forms are omitted.
+ - **0F33, 0F3B** - Using AL or AH as the first operand to EXT is invalid. These forms are omitted.
 
 *When the V20 halts due to an illegal instruction, there is no HALT bus state indicated.
 
