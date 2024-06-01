@@ -1,6 +1,6 @@
 {
     "github": "https://github.com/SingleStepTests/V20",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "syntax_version": 2,
     "cpu": "V20",
     "cpu_detail": "NEC JAPAN V20 8902NX D70108C-8 1984",

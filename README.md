@@ -4,7 +4,7 @@ This is a set of NEC V20 (μPD70108) CPU tests produced by Daniel Balsom using t
  - The ```v1_native``` directory contains the V20's native instruction set.
  - The ```v1_emulation``` directory will (eventually) contain the V20's 8080 emulation mode instruction set.
 
-### Current Version: 1.0.1
+### Current Version: 1.0.2
 
 ### Changes from 8088 Test Suite V1
 
@@ -19,7 +19,7 @@ If you have worked with my previous test suite for the Intel 8088, you will find
 These tests are produced with an NEC V20 CPU running in Maximum mode.
 
 10,000 tests are generally provided per opcode, with the following exceptions:
-- String instructions are limited to 2,000 tests due to their large size, even when masking CX to 7 bits.
+- String instructions are limited to 5,000 tests due to their large size, even when masking CX to 7 bits.
 - Shift and rotate instructions that use a CL count (D2, D3) or an immediate count (C0, C1) are limited to 5,000 tests.
 - ENTER is limited to 2000 tests due to the large size of resulting stack frames.
 - INC and DEC instructions with fixed register operands are limited to 1,000 tests as they are trivial.
@@ -221,7 +221,7 @@ The V20 often has very different behavior than the 8088 when presented with unde
 
 If you are validating memory operations for both addresses and values, you might struggle a bit with IDIV exceptions. During the call to the Type-0 interrupt "exception" handler, the flags register will be written to the stack - containing several undefined flags. You will need some strategy to mark when flags are on the stack so you can mask them, or simply disable validation of memory operation values when you detect exceptions occur.  One good way to detect an exception is if a test performs four successive reads from addresses 0000-0003.
 
-Challenge mode: Actually implement the undefined flags for division!
+Challenge: Actually implement the undefined flags for division!
 
 ### Masking Flags: metadata.json
 

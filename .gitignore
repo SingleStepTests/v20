@@ -1,0 +1,2 @@
+/v1_native/*.json
+!/v1_native/metadata.json
