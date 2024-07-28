@@ -29,7 +29,7 @@ All tests assume a full 1MB of RAM is mapped to the processor and writable.
 
 No wait states are incurred during any of the tests. The interrupt and trap flags are not exercised.
 
-This test set exercises the V20's processor instruction queue. Odd instructions will execute from a full instruction queue, 
+This test set exercises the V20's processor instruction queue. Every other instruction will execute from a full instruction queue.
 
 ### Using the Tests
 
