@@ -1,0 +1,1826 @@
+[metadata]
+github = "https://github.com/SingleStepTests/V20"
+version = "1.0.2"
+syntax_version = 2
+cpu = "V20"
+cpu_detail = "NEC JAPAN V20 8902NX D70108C-8 1984"
+generator = "arduino8088 v1.1"
+author = "Daniel Balsom"
+date = "2024/05/25"
+
+[metadata.opcodes.00]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.01]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.02]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.03]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.04]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.05]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.06]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.07]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.08]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.09]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.0A]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.0B]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.0C]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.0D]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.0E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.0F]
+status = "extension"
+arch = "v30"
+
+[metadata.opcodes.10]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.11]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.12]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.13]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.14]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.15]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.16]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.17]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.18]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.19]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.1A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.1B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.1C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.1D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.1E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.1F]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.20]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.21]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.22]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.23]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.24]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.25]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.26]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.27]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.28]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.29]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.2A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.2B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.2C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.2D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.2E]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.2F]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.30]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.31]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.32]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.33]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.34]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.35]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.36]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.37]
+status = "normal"
+arch = "86"
+flags = "o..sz.p."
+flags-mask = 63291
+
+[metadata.opcodes.38]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.39]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.3A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.3B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.3C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.3D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.3E]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.3F]
+status = "normal"
+arch = "86"
+flags = "o..sz.p."
+flags-mask = 63291
+
+[metadata.opcodes.40]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.41]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.42]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.43]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.44]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.45]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.46]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.47]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.48]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.49]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.4A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.4B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.4C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.4D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.4E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.4F]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.50]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.51]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.52]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.53]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.54]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.55]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.56]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.57]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.58]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.59]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.5A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.5B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.5C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.5D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.5E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.5F]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.60]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.61]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.62]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.63]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.64]
+status = "prefix"
+arch = "v30"
+
+[metadata.opcodes.65]
+status = "prefix"
+arch = "v30"
+
+[metadata.opcodes.66]
+status = "fpu"
+arch = "v30"
+
+[metadata.opcodes.67]
+status = "fpu"
+arch = "v30"
+
+[metadata.opcodes.68]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.69]
+status = "normal"
+arch = "186"
+flags = "...szap."
+flags-mask = 65323
+
+[metadata.opcodes.6A]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.6B]
+status = "normal"
+arch = "186"
+flags = "...szap."
+flags-mask = 65323
+
+[metadata.opcodes.6C]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.6D]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.6E]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.6F]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.70]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.71]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.72]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.73]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.74]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.75]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.76]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.77]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.78]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.79]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.7A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.7B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.7C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.7D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.7E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.7F]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.84]
+status = "normal"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.85]
+status = "normal"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.86]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.87]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.88]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.89]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.90]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.91]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.92]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.93]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.94]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.95]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.96]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.97]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.98]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.99]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.9A]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.9B]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.9C]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.9D]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.9E]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.9F]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A4]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A6]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A7]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.A8]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.A9]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.AA]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.AB]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.AC]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.AD]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.AE]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.AF]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B4]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B6]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B7]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B8]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.B9]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.BA]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.BB]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.BC]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.BD]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.BE]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.BF]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C4]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C8]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.C9]
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.CA]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.CB]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.CC]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.CD]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.CE]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.CF]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D4]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D5]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D6]
+status = "undocumented"
+arch = "v30"
+
+[metadata.opcodes.D7]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D8]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.D9]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.DA]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.DB]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.DC]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.DD]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.DE]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.DF]
+status = "fpu"
+arch = "86"
+
+[metadata.opcodes.E0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E4]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E6]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E7]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E8]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.E9]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.EA]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.EB]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.EC]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.ED]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.EE]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.EF]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F0]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.F1]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.F2]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.F3]
+status = "prefix"
+arch = "86"
+
+[metadata.opcodes.F4]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F8]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F9]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FA]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FB]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FC]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FD]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.0F10]
+status = "normal"
+arch = "v30"
+flags = "...szap."
+flags-mask = 65387
+
+[metadata.opcodes.0F11]
+status = "normal"
+arch = "v30"
+flags = "...szap."
+flags-mask = 65387
+
+[metadata.opcodes.0F12]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F13]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F14]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F15]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F16]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F17]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F18]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F19]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F1A]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F1B]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F1C]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F1D]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F1E]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F1F]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F20]
+status = "normal"
+arch = "v30"
+flags = "o..s.ap."
+flags-mask = 63339
+
+[metadata.opcodes.0F22]
+status = "normal"
+arch = "v30"
+flags = "o..s.ap."
+flags-mask = 63339
+
+[metadata.opcodes.0F26]
+status = "normal"
+arch = "v30"
+flags = "o..s.ap."
+flags-mask = 63339
+
+[metadata.opcodes.0F28]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F2A]
+status = "normal"
+arch = "v30"
+
+[metadata.opcodes.0F31]
+status = "normal"
+arch = "v30"
+flags-mask = 63274
+flags = "o..szapc"
+
+[metadata.opcodes.0F33]
+status = "normal"
+arch = "v30"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.0F39]
+status = "normal"
+arch = "v30"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.0F3B]
+status = "normal"
+arch = "v30"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.0FFF]
+status = "normal"
+arch = "v30"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.80.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.80.reg.1]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.80.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.80.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.80.reg.4]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.80.reg.5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.80.reg.6]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.80.reg.7]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.81.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.81.reg.1]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.81.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.81.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.81.reg.4]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.81.reg.5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.81.reg.6]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.81.reg.7]
+status = "normal"
+
+[metadata.opcodes.82.reg.0]
+status = "alias"
+arch = "86"
+
+[metadata.opcodes.82.reg.1]
+status = "alias"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.82.reg.2]
+status = "alias"
+arch = "86"
+
+[metadata.opcodes.82.reg.3]
+status = "alias"
+arch = "86"
+
+[metadata.opcodes.82.reg.4]
+status = "alias"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.82.reg.5]
+status = "alias"
+arch = "86"
+
+[metadata.opcodes.82.reg.6]
+status = "alias"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.82.reg.7]
+status = "alias"
+arch = "86"
+
+[metadata.opcodes.83.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.83.reg.1]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.83.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.83.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.83.reg.4]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.83.reg.5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.83.reg.6]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.83.reg.7]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8F.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.8F.reg.1]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.8F.reg.2]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.8F.reg.3]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.8F.reg.4]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.8F.reg.5]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.8F.reg.6]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.8F.reg.7]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C0.reg.0]
+percentage = 50
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.C0.reg.1]
+percentage = 50
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.C0.reg.2]
+percentage = 50
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.C0.reg.3]
+percentage = 50
+status = "normal"
+arch = "186"
+
+[metadata.opcodes.C0.reg.4]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.C0.reg.5]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.C0.reg.6]
+percentage = 50
+status = "undocumented"
+arch = "186"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.C0.reg.7]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.C1.reg.0]
+percentage = 50
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.C1.reg.1]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.C1.reg.2]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.C1.reg.3]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.C1.reg.4]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = "o....a.."
+flags-mask = 63471
+
+[metadata.opcodes.C1.reg.5]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = "o....a.."
+flags-mask = 63471
+
+[metadata.opcodes.C1.reg.6]
+percentage = 50
+status = "undocumented"
+arch = "186"
+flags = "o....a.."
+flags-mask = 63471
+
+[metadata.opcodes.C1.reg.7]
+percentage = 50
+status = "normal"
+arch = "186"
+flags = "o....a.."
+flags-mask = 63471
+
+[metadata.opcodes.C6.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C6.reg.1]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C6.reg.2]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C6.reg.3]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C6.reg.4]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C6.reg.5]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C6.reg.6]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C6.reg.7]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.C7.reg.1]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.2]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.3]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.4]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.5]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.6]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.C7.reg.7]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.D0.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D0.reg.1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D0.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D0.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D0.reg.4]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D0.reg.5]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D0.reg.6]
+status = "undocumented"
+arch = "186"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D0.reg.7]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D1.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D1.reg.1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D1.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D1.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.D1.reg.4]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D1.reg.5]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D1.reg.6]
+status = "undocumented"
+arch = "186"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D1.reg.7]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.D2.reg.0]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D2.reg.1]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D2.reg.2]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D2.reg.3]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D2.reg.4]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D2.reg.5]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D2.reg.6]
+status = "undocumented"
+arch = "186"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D2.reg.7]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D3.reg.0]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D3.reg.1]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D3.reg.2]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D3.reg.3]
+status = "normal"
+arch = "86"
+flags = "o......."
+flags-mask = 63487
+
+[metadata.opcodes.D3.reg.4]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D3.reg.5]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D3.reg.6]
+status = "undocumented"
+arch = "186"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.D3.reg.7]
+status = "normal"
+arch = "86"
+flags = "o....a.c"
+flags-mask = 63470
+
+[metadata.opcodes.F6.reg.0]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.F6.reg.1]
+status = "alias"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.F6.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F6.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F6.reg.4]
+status = "normal"
+arch = "86"
+flags = "...szap."
+flags-mask = 65323
+
+[metadata.opcodes.F6.reg.5]
+status = "normal"
+arch = "86"
+flags = "...szap."
+flags-mask = 65323
+
+[metadata.opcodes.F6.reg.6]
+status = "normal"
+arch = "86"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.F6.reg.7]
+status = "normal"
+arch = "86"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.F7.reg.0]
+status = "normal"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.F7.reg.1]
+status = "alias"
+arch = "86"
+flags = ".....a.."
+flags-mask = 65519
+
+[metadata.opcodes.F7.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F7.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.F7.reg.4]
+status = "normal"
+arch = "86"
+flags = "...szap."
+flags-mask = 65323
+
+[metadata.opcodes.F7.reg.5]
+status = "normal"
+arch = "86"
+flags = "...szap."
+flags-mask = 65323
+
+[metadata.opcodes.F7.reg.6]
+status = "normal"
+arch = "86"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.F7.reg.7]
+status = "normal"
+arch = "86"
+flags = "o..szapc"
+flags-mask = 63274
+
+[metadata.opcodes.FE.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FE.reg.1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FE.reg.2]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.FE.reg.3]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.FE.reg.4]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.FE.reg.5]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.FE.reg.6]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.FE.reg.7]
+status = "undefined"
+arch = "86"
+
+[metadata.opcodes.FF.reg.0]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.1]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.2]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.3]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.4]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.5]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.6]
+status = "normal"
+arch = "86"
+
+[metadata.opcodes.FF.reg.7]
+status = "alias"
+arch = "86"
