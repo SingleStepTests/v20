@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## V1.0.3 2025/08/19
+ - Replaced 0F31 and 0F39 opcodes to correct invalid intial RAM states. (Thanks IanB)
+
 ## V1.0.2 2024/06/01
  - Replaced AC and AD opcodes to correct segment override handling.
 

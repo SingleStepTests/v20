@@ -4,7 +4,7 @@ This is a set of NEC V20 (μPD70108) CPU tests produced by Daniel Balsom using t
  - The ```v1_native``` directory contains the V20's native instruction set.
  - The ```v1_emulation``` directory will (eventually) contain the V20's 8080 emulation mode instruction set.
 
-### Current Version: 1.0.2
+### Current Version: 1.0.3
 
 ### Changes from 8088 Test Suite V1
 
@@ -29,7 +29,7 @@ All tests assume a full 1MB of RAM is mapped to the processor and writable.
 
 No wait states are incurred during any of the tests. The interrupt and trap flags are not exercised.
 
-This test set exercises the V20's processor instruction queue. Odd instructions will execute from a full instruction queue, 
+This test set exercises the V20's processor instruction queue. Half of provided instructions will execute from a full instruction queue.
 
 ### Using the Tests
 
