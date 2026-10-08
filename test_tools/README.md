@@ -6,4 +6,5 @@
  - `opcode_info.py` Will data-mine a test suite and create a CSV file with various opcode statistics.
  - `histogram_pairs.py` Will compare two opcode files from different test suites. I used this to create the diagrams in my blog article [Exploring the NEC V20](https://martypc.blogspot.com/2024/05/exploring-nec-v20-cpu.html)
  - `calculate_uncompressed.py` Will calculate the uncompressed size of the test suite, if you're curious and don't want unnecessary wear on your SSD extracting it yourself.
-
+ - `json2moo.py` Converts the JSON test suite to gzip-compressed MOO binary files
+ - `moo2json.py` Converts a directory of `.MOO` or `.MOO.gz` files back to JSON.
